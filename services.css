@@ -1,0 +1,99 @@
+#service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 3em;
+  padding-left: 0;
+}
+
+#service h1 {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#service p {
+  color: #3498db;
+  font-weight: 2px;
+  font-size: 1.5em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+#nanny {
+  background-color: HSL(204, 64%, 44%);
+  background-size: contain, cover;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sections a:link {
+  border-radius: 15px;
+  background-color: #87ceeb;
+  color: #fff;
+}
+
+.sections {
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+#teacher {
+  padding-bottom: 400px;
+  padding-top: 400px;
+}
+
+#house-keeping {
+  padding-top: 500px;
+}
+
+p {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 2rem;
+  background-image: linear-gradient(62deg, #9b59b6 0%, #2e86c1 100%);
+}
