@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dalph</title>
+      <link
+      href="https://alx-apply.hbtn.io/level2/schools.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="behavior.js"></script>
+      <style>
+
+        html{
+        font-family: Lato, "Lucida Grande", Lucida Sans Unicode, Tahoma, Sans-Serif;
+        font-weight:400;
+        }
+
+        #main-div{
+        display:block;
+  border: 20px black;
+  border-width:1px;
+  padding:10px;
+  margin-right:5px;
+  margin-left:5px;
+  background-color:#191970;
+  background-clip: padding-box;
+}
+
+
+input[type="text"], input[type="email"],input[type="number"],select{
+        width:600px;
+  border: 2px solid lightblue;
+  border-radius: 4px;
+}
+button[type="submit"]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:25px;
+  width:100%
+}
+#describe{
+  line-height:1.5em;
+  font-size:18px;
+  font-family:monospace;
+        }
+        body{
+        background-color:#6495ED;
+        color:white;
+
+        }
+</style>
+  </head>
+      <body>
+          <header>
+
+            <div class="right">
+              <iframe
+                src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Finnocent.kalu.336&layout=button&size=small&width=67&height=20&appId"
+                width="67"
+                height="20"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></iframe>
+              <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            
+            <ul id="nav-link">
+              <li class="logo">&#272;&#945;&#564;&#8472;&#8460;</li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="tweets.html">Tweets</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="#form1">Sign Up</a></li>
+
+              </ul>
+         
+
+        </header>
+        <main>
+          <div id="main-div">
+             <p id="describe">Kindly fill this form to complete your registration</p>
+          <form id="form1">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="Full Name" placeholder="Enter your name" required ></p>
+<p id="email-label">
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your Email" required >
+</p>
+<p id="number-label"><label for="number">Age</label><br>
+</p>
+<p><label for="birthday">Date of birth</label><br>
+  <input type="date" id="birthday" name="birthday" required >
+  </p>
+<p>Click on <q>Choose File</q> button to upload Identity card e.g:NIN,drivers license or voters card:<br>
+  <input type="file" id="identity" name="identity" required>
+  </p>
+
+<p>Which option best describes your interest?</p>
+<input type="radio" id="hire" name="hire" value="hire">
+<label for="hire">I'm hiring</label><br>
+<input type="radio" id="job" name="job" value="job">
+          <label for="job">Looking to get hired</label><br>
+</p>
+<p>Which of our services would you like to buy or sell? (Check all that apply)<br>
+  <input type="checkbox" id="nanny" name="nanny" value="nanny">
+  <label for="nanny">Nanny Services</label><br>
+  <input type="checkbox" id="baby-sitting" name="baby-sitting" value="baby-sitting">
+  <label for="baby-sitting"> Baby-sitting</label><br>
+  <input type="checkbox" id="house" name="house" value="house">
+  <input type="checkbox" id="cook" name="cook" value="cook">
+  <label for="challenges">Cooks and Catering Services</label><br>
+  <input type="checkbox" id="maintain" name="maintain" value="maintain">
+  <label for="videos">Maintenance Services</label><br>
+  <input type="checkbox" id="decor" name="decor" value="decor">
+  <label for="decor">Interior and Event Decoration</label><br>
+  <input type="checkbox" id="teacher" name="teacher" value="teacher">
+  <label for="teacher">Home Instructors</label>
+</P>
+<p>
+  <button type="submit" value="submit" id="submit">Submit</button>
+</p>
+</form>
+</div>
+<aside>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+    var disqus_config = function () {
+      this.page.url=window.location.href;
+    this.page.identifier = http3214216190; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://http3214216190.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+</aside>
+        </main>
+        <footer>
+         <p> Made by Innocent Kalu for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
+        </footer>
+      </body>
+      </html>
